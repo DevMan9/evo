@@ -1,0 +1,15 @@
+# Mac specific
+.DS_Store
+
+# I want to ignore anything prefixed with "arc" my denotation for archives.
+arc*
+
+# Except specifically the "archive" directory 
+# (but not its platform specific contents
+!archive/
+archive/*
+!archive/.gitkeep
+
+# Don't include anything in the specimen directory, but keep the directory.
+specimens/*
+!specimens/.gitkeep

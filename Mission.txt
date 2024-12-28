@@ -1,0 +1,26 @@
+I want to make evolving code.
+
+I shouldn't care about designing a communication method.  I just need to enforce a good set of rules on the subject.  I don't have to worry about telling the code how to answer, because if it doesn't answer correctly, then it will be unsuccessful.  Therefore I think I should simplify the communication method as much as possible. I send it bytes, it sends back bytes.  If I don't like the bytes it sent back, it scores low.  If I like the bytes, then it scores high.
+
+I can imagine 2 methods of reproduction:
+1) External - A set method outside the specimen.  This is more resistant to genetic dead ending as the mutagenic code can't be mutated away.  However, if my mutagenic code is not robust, it could lead to poor results.
+2) Internal - The code for replication is contained within the specimen.  This allows the mutagenic code to evolve along side the specimen.  This could produce a more fit for purpose mutagenic code than anything I could write.  However, it could easily lead to uniformity event.
+
+It might be worth having both methods available.  In case of uniformity, we could activate the external mutagen.
+
+In fact, maybe my first goal should evolve reproduction as my first goal.
+
+No.  That's just playing Yahtzee because there's no gradient involved in that problem.
+
+However, I don't have develop the internal mutagen, I can evolve for that.  Simply build a specimen with a 1:1 clone function and use the external mutagen on it.
+
+So, my focuses are:
+-Make a management system (Sentinel) to:
+	-run, test, and grade specimens.
+	-clean up old, defunct specimens.
+	-
+-External mutagen.
+-Make a bare bones specimen. Given no input, reproduces.  Given some input, performs an action and DOES NOT reproduce.
+
+Things to pay attention to:
+-Genetic diversity. If a population becomes too uniform, then it could create a genetic dead end where children are clones of parents.  No new features will evolve.
